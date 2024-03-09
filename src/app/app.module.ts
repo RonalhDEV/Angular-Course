@@ -5,6 +5,7 @@ import { CounterModule } from './counter/counter.module';
 import { HeoresModule } from './heroes/heroes.module';
 
 import { AppComponent } from './app.component';
+import { DbzModule } from './dbz/dbz.module';
 
 
 
@@ -16,6 +17,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     CounterModule,
     HeoresModule,
+    DbzModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
